@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "178806738549",
+    "project_id": "tourism-guide-cedea",
+    "storage_bucket": "tourism-guide-cedea.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178806738549:android:b08711a398de56a297f23c",
+        "android_client_info": {
+          "package_name": "com.example.tourism_guide"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEJwI6nb_z_H30uavIti6EWpYypAHtuRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
