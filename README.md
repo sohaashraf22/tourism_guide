@@ -1,17 +1,94 @@
-# tourism_guide
 
-A new Flutter project.
+# 🇪🇬 Egypt Tourism Guide
 
-## Getting Started
+A Flutter mobile application that helps users explore famous tourist attractions in Egypt, discover historical places, and save their favorite destinations.
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- Explore famous tourist attractions in Egypt.
+- View attraction images and information.
+- Search for tourist destinations.
+- View detailed information about each attraction.
+- Add attractions to Favorites.
+- Browse saved favorite places.
+- User Login and Sign Up screens.
+- Beautiful splash screen.
+- Modern and user-friendly interface.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## 📱 App Screenshots
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Home Screen
+![Home Screen](screenshots/home_screen.png)
+
+### Details Screen
+![Details Screen](screenshots/details_screen.png)
+
+### Favorites Screen
+![Favorites Screen](screenshots/favorites_screen.png)
+
+## 🛠️ Technologies Used
+
+- Flutter
+- Dart
+- Android Studio
+- Firebase
+
+## 📂 Project Structure
+
+```text
+lib/
+├── constants/
+│   └── app_colors.dart
+├── data/
+│   └── attractions_data.dart
+├── models/
+│   └── attraction.dart
+├── providers/
+│   └── favorite_providers.dart
+├── screens/
+│   ├── details_screen.dart
+│   ├── explore_screen.dart
+│   ├── favoriate_screen.dart
+│   ├── home_screen.dart
+│   ├── login_screen.dart
+│   ├── signup_screen.dart
+│   └── splash_screen.dart
+├── widgets/
+│   ├── attraction_card.dart
+│   └── custom_text_field.dart
+└── main.dart
+
+assets/
+├── images/
+└── logo/
+```
+
+## 🚀 How to Run
+
+1. Install Flutter and Android Studio.
+2. Clone the repository:
+
+   ```bash
+   git clone https://github.com/sohaashraf22/tourism_guide.git
+   ```
+
+3. Open the project in Android Studio.
+4. Install dependencies:
+
+   ```bash
+   flutter pub get
+   ```
+
+5. Run the application:
+
+   ```bash
+   flutter run
+   ```
+
+## 🎯 Project Goal
+
+The goal of this application is to make discovering Egypt's famous tourist attractions easier and more enjoyable.
+
+---
+
+**Developed using Flutter and Dart.**
